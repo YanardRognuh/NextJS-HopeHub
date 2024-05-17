@@ -10,7 +10,7 @@ interface DonateProps {
 const DonateCard: React.FC<DonateProps> = ({ title, description, buttonLabel }) => {
   return (
     <Card>
-      <CardHeader>{title}</CardHeader>
+      <CardHeader >{title}</CardHeader>
       <CardBody>
         <p>{description}</p>
         {title === 'Monthly Donation' ? (

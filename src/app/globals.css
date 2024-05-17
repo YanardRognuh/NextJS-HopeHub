@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.height{
-    height: calc(100vh - 5rem);
+body{
+    background-color: black;
 }

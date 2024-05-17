@@ -21,6 +21,9 @@ const Navigation = () => {
           <NavbarItem>
             <Link href='\donate'>Donate</Link>
           </NavbarItem>
+          <NavbarItem>
+            <Link href='\resources'>Article and Resources</Link>
+          </NavbarItem>
         </NavbarContent>
       </Navbar>
     </>
